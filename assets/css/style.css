@@ -1,52 +1,93 @@
-{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-  }
-
-  .header {
-    background-color: rgba(0, 3, 2, 0.726);
-    justify-content: space-around;
-    top: 0%;
-    height: 100px;
-    width: 100%;
-    margin: auto;
-    position: relative;
-
-  }
-
-  .Title img {
-    display: flex;
-    margin-left: 35px;
-    height: 400px;
-    width: 95%;
-    padding: 10px;
-  }
-navigation a {
-  
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: rgba(215, 245, 235, 0.726);
 }
-  .side-bar {
-    display: flex;
-    flex-direction: column;
-    margin-top: auto;
-    position: relative;
-    padding: 5px;
-  }
 
-  .container {
-    display: flex;
-    width: 100%;
-  }
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
-  .navigation {
-    display: flex;
-    justify-content: space-between;
-    width: 300px;
-    margin-left: 80%;
+header {
+  padding: 20px 35px;
+  display: flex;
+  flex-wrap: wrap;
+  position: sticky;
+  position: -webkit-sticky;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
+  justify-content: space-between;
+  top: 0%;
+}
+header h1 {
+  font-size: 35px;
+  color: green;
+  margin: 0;
+  font-weight: bolder;
+ text-shadow: 0 0 10px rgb(3, 248, 3);
+}
+header nav { 
+  margin: 5px 0;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+header nav ul li {
+padding: 10px 15px;
+flex-wrap: wrap;
+align-items: center; 
+justify-content: space-between;
+}
+header a:hover {
+  color: darkorange;
+}
+section .Title { 
+  padding: 80px;
+  background-image: url('../images/blockchain.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+}
 
-  }
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  float left: ;
+  margin-top: 25%;
+  max-width: 100%;
 
-  .creator {
-    display: flex;
+  padding: 5px;
+}
 
-    justify-content: space-evenly;
-  }
+.side-bar p {
+  font-size: px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 8%;
+  flex-wrap: wrap;
+  width: fit-content;
+  border: solid 5px;
+  position: relative;
+  padding: 5px;
+
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+
+.creator {
+  display: flex;
+
+  justify-content: space-evenly;
+}
