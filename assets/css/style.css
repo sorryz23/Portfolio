@@ -23,6 +23,12 @@ header {
   justify-content: space-between;
   top: 0%;
 }
+.profile-pic {
+display: flex;
+  width: 10%;
+  height:auto;
+ margin: 0 90% 20px 0;
+}
 
 header h1 {
   font-size: 35px;
