@@ -160,3 +160,37 @@ padding-left: 10px;
   margin: 0 1% 2% 1%;
   position: relative;
 }
+.small-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto 0 auto;
+  flex-direction: row;
+  width: 100%;
+}
+.led-wall {
+  background-image: url("../images/indoor-led-video-wall-500x500.jpg");
+  background-size: cover;
+  width: 50%;
+  height: 300px;
+  margin-bottom: 2%;
+  position: relative;
+}
+.calculator {
+  background-image: url("../images/Budget_Calculator_Spreadsheet_960x640.jpg");
+  background-size: cover;
+  width: 50%;
+  height: 300px;
+  margin-bottom: 2%;
+  position: relative;
+
+}
+.Run-buddy {
+  background-image: url("../images/run-buddy.png");
+  background-size: cover;
+  width: 50%;
+  height:300px;
+  margin-bottom: 2%;
+  position: relative;
+}
