@@ -169,6 +169,9 @@ padding-left: 10px;
   flex-direction: row;
   width: 100%;
 }
+.led-wall:hover {
+  opacity: 75%;
+}
 .led-wall {
   background-image: url("../images/indoor-led-video-wall-500x500.jpg");
   background-size: cover;
@@ -176,6 +179,9 @@ padding-left: 10px;
   height: 300px;
   margin-bottom: 2%;
   position: relative;
+}
+.calculator:hover {
+  opacity: 75%;
 }
 .calculator {
   background-image: url("../images/Budget_Calculator_Spreadsheet_960x640.jpg");
@@ -186,6 +192,9 @@ padding-left: 10px;
   position: relative;
 
 }
+.Run-buddy:hover {
+  opacity: 75%;
+}
 .Run-buddy {
   background-image: url("../images/run-buddy.png");
   background-size: cover;
@@ -194,3 +203,31 @@ padding-left: 10px;
   margin-bottom: 2%;
   position: relative;
 }
+.pastel-puzzles:hover {
+  opacity: 75%;
+}
+.pastel-puzzles {
+  background-image: url("../images/079346119714.jpg");
+  background-size: cover;
+  width: 50%;
+  height:300px;
+  margin-bottom: 2%;
+  position: relative;
+
+}
+@media screen and (max-width) {
+  section {
+    padding: 30px 15px;
+  }
+  
+
+@media screen and (max-width:980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+@media screen and (max-width: 575px) {
+  .info {
+    width: 95%;
+  }
