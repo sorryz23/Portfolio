@@ -1,7 +1,7 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  background-color: rgba(215, 245, 235, 0.726);
+  background-color: rgba(5, 245, 237, 0.726);
 }
 
 * {
@@ -23,11 +23,18 @@ header {
   justify-content: space-between;
   top: 0%;
 }
+
 .profile-pic {
-display: flex;
+  display: flex;
   width: 10%;
-  height:auto;
- margin: 0 90% 20px 0;
+  height: auto;
+  margin: 0 90% 20px 0;
+}
+
+p {
+  border-top: solid black 5px;
+  font-size: 20px;
+  text-shadow: 2px 2px 8px #FF0000;
 }
 
 header h1 {
@@ -81,38 +88,44 @@ section {
   background: none;
   text-shadow: 5px 5px 5px black;
 }
+
 .section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
+
 .about h2 {
   font-size: 35px;
 }
+
 .about {
   display: flex;
-  justify-content: flex-end; 
+  justify-content: flex-end;
   margin: 0 auto 0 auto;
   padding-right: 60px;
   width: 15%;
   text-align: end;
   border-right: black solid 5px;
   height: 100px;
-  
+
 }
+
 .info {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
-align-items: center;
-margin: 0 auto 0 auto;
-width: 85%;
-padding-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto 0 auto;
+  width: 85%;
+  padding-left: 10px;
 }
+
 .work-title h2 {
   font-size: 35px;
 }
+
 .work-title {
   display: flex;
   flex-wrap: wrap;
@@ -124,6 +137,7 @@ padding-left: 10px;
   padding-right: 15px;
   height: 1250px;
 }
+
 .flex {
   display: flex;
   flex-direction: column;
@@ -133,6 +147,7 @@ padding-left: 10px;
   width: 90%;
   border-left: black solid 5px;
 }
+
 .flex p {
   display: inline-block;
   text-align: start;
@@ -142,6 +157,7 @@ padding-left: 10px;
   left: 0%;
   opacity: 85%;
 }
+
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -152,14 +168,16 @@ padding-left: 10px;
   width: 100%;
   height: 650px;
 }
+
 .surf-report {
-  background-image: url("../images/Horiseon.png");
+  background-image: url("../images/StudentOutlet.png");
   background-size: cover;
   width: 100%;
   height: 600px;
   margin: 0 1% 2% 1%;
   position: relative;
 }
+
 .small-projects {
   display: flex;
   flex-wrap: wrap;
@@ -169,20 +187,24 @@ padding-left: 10px;
   flex-direction: row;
   width: 100%;
 }
+
 .led-wall:hover {
   opacity: 75%;
 }
+
 .led-wall {
-  background-image: url("../images/indoor-led-video-wall-500x500.jpg");
+  background-image: url("../images/Horiseon.png");
   background-size: cover;
   width: 50%;
   height: 300px;
   margin-bottom: 2%;
   position: relative;
 }
+
 .calculator:hover {
   opacity: 75%;
 }
+
 .calculator {
   background-image: url("../images/Budget_Calculator_Spreadsheet_960x640.jpg");
   background-size: cover;
@@ -192,42 +214,74 @@ padding-left: 10px;
   position: relative;
 
 }
+
 .Run-buddy:hover {
   opacity: 75%;
 }
+
 .Run-buddy {
   background-image: url("../images/run-buddy.png");
   background-size: cover;
   width: 50%;
-  height:300px;
+  height: 300px;
   margin-bottom: 2%;
   position: relative;
+  border-bottom: solid 5px;
 }
+
 .pastel-puzzles:hover {
   opacity: 75%;
 }
+
 .pastel-puzzles {
   background-image: url("../images/079346119714.jpg");
   background-size: cover;
   width: 50%;
-  height:300px;
+  height: 300px;
   margin-bottom: 2%;
   position: relative;
+  border-bottom: solid 5px;
 
 }
+
+.footer {
+  margin-left: 30%;
+  display: flex;
+  width: 40%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Phone:hover {
+  background-color: darkorange;
+}
+
+.Email:hover {
+  background-color: darkorange;
+}
+
+.Github:hover {
+  background-color: darkorange;
+}
+
+.resume:hover {
+  background-color: darkorange;
+}
+
 @media screen and (max-width) {
   section {
     padding: 30px 15px;
   }
-  
 
-@media screen and (max-width:980px) {
-  header {
-    padding-bottom: 0;
-    justify-content: center;
-    position: relative;
-  }
-@media screen and (max-width: 575px) {
-  .info {
-    width: 95%;
-  }
+
+  @media screen and (max-width:980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+
+    @media screen and (max-width: 575px) {
+      .info {
+        width: 95%;
+      }
